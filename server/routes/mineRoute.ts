@@ -14,8 +14,8 @@ class MineRoute extends RouteModel {
   };
 
   protected initRoutes() {
-    this.router.put('/mine/addGold', new MineController().addGold);
-    this.router.put('/mine/upgradeMine', new MineController().upgradeMine);
+    this.router.put('/mine/add-gold', new MineController().addGold);
+    this.router.put('/mine/upgrade-mine', new MineController().upgradeMine);
   };
 };
 

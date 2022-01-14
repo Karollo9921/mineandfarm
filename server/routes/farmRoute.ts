@@ -14,8 +14,8 @@ class FarmRoute extends RouteModel {
   };
 
   protected initRoutes() {
-    this.router.put('/farm/addGold', new FarmController().addGoldAndCooldown);
-    this.router.put('/farm/upgradeFarm', new FarmController().upgradeFarm);
+    this.router.put('/farm/add-gold', new FarmController().addGoldAndCooldown);
+    this.router.put('/farm/upgrade-farm', new FarmController().upgradeFarm);
   };
 };
 
