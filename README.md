@@ -24,5 +24,5 @@ starting app by: npm start <br />
 starting tests: npm test <br />
 <br />
 <br />
-For request.rest file you need REST Client extension.<br />
+For request.rest file you need to install REST Client extension.<br />
 <br />
