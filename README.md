@@ -1,26 +1,27 @@
 # mineandfarm
 
-clone repository
-In the console: npm install
+clone repository <br />
+In the console: npm install <br />
+<br />
+create an .env file, and there put variables: <br />
+MONGO_URL=mongodb://localhost/<name> <br />
+PORT=3000 <br />
 
-create an .env file, and there put variables:
-MONGO_URL=mongodb://localhost/<name>
-PORT=3000
-
-Insert code from mongoCode.js into your Mongo database
+Insert code from mongoCode.js into your Mongo database <br />
+<br />
 
 Routes:
-/api/login
-/api/register
-/api/mine/add-gold
-/api/mine/upgrade-mine
-/api/farm/add-gold
-/api/farm/upgrade-farm
-/api/users
+/api/login <br />
+/api/register <br />
+/api/mine/add-gold <br />
+/api/mine/upgrade-mine <br />
+/api/farm/add-gold <br />
+/api/farm/upgrade-farm <br />
+/api/users <br />
+<br />
 
-
-starting app by: npm start
-starting tests: npm test
-
+starting app by: npm start <br />
+starting tests: npm test <br />
+<br />
 
 For request.rest file you need REST Client extension.
