@@ -4,7 +4,7 @@ clone repository <br />
 In the console: npm install <br />
 <br />
 create an .env file, and there put variables: <br />
-MONGO_URL=mongodb://localhost/<name> <br />
+MONGO_URL=mongodb://localhost/name <br />
 PORT=3000 <br />
 <br />
 Insert code from mongoCode.js into your Mongo database <br />
