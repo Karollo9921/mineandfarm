@@ -1,0 +1,62 @@
+{
+  "mine": [
+    {
+      "level": 1,
+      "cost": 0,
+      "income": 1
+    },
+    {
+      "level": 2,
+      "cost": 15,
+      "income": 2
+    },
+    {
+      "level": 3,
+      "cost": 50,
+      "income": 3
+    },
+    {
+      "level": 4,
+      "cost": 500,
+      "income": 5
+    },
+    {
+      "level": 5,
+      "cost": 5000,
+      "income": 10
+    }
+  ],
+
+  "farm": [
+    {
+      "level": 1,
+      "cost": 20,
+      "income": 2,
+      "cooldown": 5
+    },
+    {
+      "level": 2,
+      "cost": 30,
+      "income": 4,
+      "cooldown": 4
+    },
+    {
+      "level": 3,
+      "cost": 100,
+      "income": 10,
+      "cooldown": 3
+    },
+    {
+      "level": 4,
+      "cost": 500,
+      "income": 15,
+      "cooldown": 2
+    },
+    {
+      "level": 5,
+      "cost": 4000,
+      "income": 30,
+      "cooldown": 1
+    }
+  ]
+}

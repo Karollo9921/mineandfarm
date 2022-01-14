@@ -1,0 +1,51 @@
+GET http://localhost:3000/api/login
+
+###
+
+POST http://localhost:3000/api/login
+Content-Type: application/json
+
+{
+  "login": "Karol",
+  "password": "qwerty"
+}
+
+###
+
+POST http://localhost:3000/api/register
+Content-Type: application/json
+
+{
+  "login": "Karol",
+  "password": "qwerty"
+}
+
+###
+
+POST http://localhost:3000/api/register
+Content-Type: application/json
+
+{
+  "login": "Henryk",
+  "password": "qwerty"
+}
+
+###
+
+PUT http://localhost:3000/api/mine/addGold
+
+###
+
+PUT http://localhost:3000/api/mine/upgradeMine
+
+###
+
+PUT http://localhost:3000/api/farm/addGold
+
+###
+
+PUT http://localhost:3000/api/farm/upgradeFarm
+
+###
+
+GET http://localhost:3000/api/users
